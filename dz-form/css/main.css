@@ -1,0 +1,92 @@
+.main {
+	width: 454px;
+	margin: 0;
+}
+
+.element {
+	margin: 10px 8px;
+	float: left;
+}
+
+form {
+	width: 460px;
+	margin: 0 auto;
+}
+
+input {
+	background: #fff;
+	padding: 6px;
+	border: 2px solid #ffdb4d;
+	font-size: 16px;
+	border-radius: 8px;
+	cursor: pointer;
+	float: left;
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+	background: rgba(255, 219, 76, 0.3);
+	outline: none;
+}
+
+input[type="radio"] {
+	background: rgba(255, 219, 76, 0.3);
+	outline: none;
+	border: 2px solid #ffdb4d;
+	margin: 0 10px 10.5px 0;
+
+}
+
+label {
+	margin: 0 0 10.5px 0;
+}
+
+textarea {
+	background: #fff;
+	padding: 6px;
+	border: 2px solid #ffdb4d;
+	font-size: 16px;
+	border-radius: 8px;
+	cursor: pointer;
+	width: 310px;
+	height: 100px;
+	resize: none;
+}
+
+textarea:focus {
+	outline: none;
+	background: rgba(255, 219, 76, 0.3);
+}
+
+h4 {
+	margin: 0 0 4px 0;
+}
+
+button {
+	outline: none;
+	background: #fff;
+	padding: 6px;
+	border: 2px solid #ffdb4d;
+	font-size: 16px;
+	border-radius: 8px;
+	cursor: pointer;
+	width: 112px;
+}
+
+button:hover, button:active {
+	outline: none;
+	background: rgba(255, 219, 76, 0.3);
+}
+
+.error {
+	font-size: 15px;
+	color: red;
+	text-align: center;
+}
+
+.message {
+	font-size: 30px;
+	color: green;
+	text-align: center;
+	margin: 20px;
+}
+
