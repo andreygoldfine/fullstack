@@ -57,6 +57,39 @@ textarea:focus {
 	background: rgba(255, 219, 76, 0.3);
 }
 
+select {
+	width: 211px;
+	background: #fff;
+	padding: 6px;
+	border: 2px solid #ffdb4d;
+	font-size: 16px;
+	border-radius: 8px;
+	cursor: pointer;
+	float: left;
+}
+
+select:focus {
+	outline: none;
+	background: rgba(255, 219, 76, 0.3);
+}
+
+option {
+	background: #fff;
+	padding: 6px;
+	font-size: 16px;
+	border-radius: 8px;
+	cursor: pointer;
+	float: left;
+	outline: none;
+	border: none;
+
+}
+
+option:hover {
+	background: rgba(255, 219, 76, 0.3);
+	cursor: pointer;
+}
+
 h4 {
 	margin: 0 0 4px 0;
 }
